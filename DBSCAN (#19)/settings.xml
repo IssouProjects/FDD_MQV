@@ -10,12 +10,12 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="Eps" type="xdouble" value="0.002"/>
+<entry key="Eps" type="xdouble" value="5.0E-4"/>
 <config key="Minpts_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="Minpts" type="xint" value="3"/>
+<entry key="Minpts" type="xint" value="10"/>
 <config key="Inmem_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -50,12 +50,12 @@
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 55, Cols: 1"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 45, Cols: 1"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="224e0d93-0a92-4a42-b401-ffc07943310d"/>
+<entry key="file_store_id" type="xstring" value="8b6ce172-b3fc-4fb6-bce8-706cc88dfc10"/>
 </config>
 </config>
