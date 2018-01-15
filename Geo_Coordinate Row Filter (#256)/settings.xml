@@ -11,18 +11,34 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="polygon_selection_lonpoints">
-<entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xdouble" value="4.830465316772461"/>
-<entry key="1" type="xdouble" value="4.829092025756836"/>
-<entry key="2" type="xdouble" value="4.833512306213379"/>
-<entry key="3" type="xdouble" value="4.834713935852051"/>
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xdouble" value="4.819908142089844"/>
+<entry key="1" type="xdouble" value="4.8065185546875"/>
+<entry key="2" type="xdouble" value="4.797248840332031"/>
+<entry key="3" type="xdouble" value="4.7989654541015625"/>
+<entry key="4" type="xdouble" value="4.8209381103515625"/>
+<entry key="5" type="xdouble" value="4.8332977294921875"/>
+<entry key="6" type="xdouble" value="4.8566436767578125"/>
+<entry key="7" type="xdouble" value="4.868659973144531"/>
+<entry key="8" type="xdouble" value="4.862480163574219"/>
+<entry key="9" type="xdouble" value="4.887542724609375"/>
+<entry key="10" type="xdouble" value="4.8841094970703125"/>
+<entry key="11" type="xdouble" value="4.847373962402344"/>
 </config>
 <config key="polygon_selection_latpoints">
-<entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xdouble" value="45.75911016713594"/>
-<entry key="1" type="xdouble" value="45.75698431353719"/>
-<entry key="2" type="xdouble" value="45.75614592646952"/>
-<entry key="3" type="xdouble" value="45.758271812008445"/>
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xdouble" value="45.77997516219392"/>
+<entry key="1" type="xdouble" value="45.76081677972448"/>
+<entry key="2" type="xdouble" value="45.74548533557156"/>
+<entry key="3" type="xdouble" value="45.72751343961404"/>
+<entry key="4" type="xdouble" value="45.72152152227953"/>
+<entry key="5" type="xdouble" value="45.72271995716075"/>
+<entry key="6" type="xdouble" value="45.73230651075432"/>
+<entry key="7" type="xdouble" value="45.74069339553309"/>
+<entry key="8" type="xdouble" value="45.77805962008006"/>
+<entry key="9" type="xdouble" value="45.782608925150114"/>
+<entry key="10" type="xdouble" value="45.78931248762557"/>
+<entry key="11" type="xdouble" value="45.785003147146114"/>
 </config>
 <config key="exclude_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
@@ -61,12 +77,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 97, Cols: 16"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2293, Cols: 16"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0b4f0ce7-c8c7-4d79-b354-34bd25fc8084"/>
+<entry key="file_store_id" type="xstring" value="b78fa89d-be4e-4b08-89cf-980834769c44"/>
 </config>
 </config>
