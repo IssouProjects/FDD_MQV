@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="polygon_selection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_geopolygon"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="polygon_selection_lonpoints">
+<entry key="array-size" type="xint" value="13"/>
+<entry key="0" type="xdouble" value="4.840850830078125"/>
+<entry key="1" type="xdouble" value="4.7934722900390625"/>
+<entry key="2" type="xdouble" value="4.7811126708984375"/>
+<entry key="3" type="xdouble" value="4.7728729248046875"/>
+<entry key="4" type="xdouble" value="4.7838592529296875"/>
+<entry key="5" type="xdouble" value="4.8140716552734375"/>
+<entry key="6" type="xdouble" value="4.8415374755859375"/>
+<entry key="7" type="xdouble" value="4.8703765869140625"/>
+<entry key="8" type="xdouble" value="4.9005889892578125"/>
+<entry key="9" type="xdouble" value="4.9060821533203125"/>
+<entry key="10" type="xdouble" value="4.906768798828125"/>
+<entry key="11" type="xdouble" value="4.888916015625"/>
+<entry key="12" type="xdouble" value="4.849090576171875"/>
+</config>
+<config key="polygon_selection_latpoints">
+<entry key="array-size" type="xint" value="13"/>
+<entry key="0" type="xdouble" value="45.789551885661865"/>
+<entry key="1" type="xdouble" value="45.77901739936284"/>
+<entry key="2" type="xdouble" value="45.752193360631054"/>
+<entry key="3" type="xdouble" value="45.72727377526008"/>
+<entry key="4" type="xdouble" value="45.70857678749414"/>
+<entry key="5" type="xdouble" value="45.69850658738845"/>
+<entry key="6" type="xdouble" value="45.69371061645449"/>
+<entry key="7" type="xdouble" value="45.697067839297326"/>
+<entry key="8" type="xdouble" value="45.720562755865394"/>
+<entry key="9" type="xdouble" value="45.74740199642105"/>
+<entry key="10" type="xdouble" value="45.77135470445039"/>
+<entry key="11" type="xdouble" value="45.7909882522868"/>
+<entry key="12" type="xdouble" value="45.7957758736992"/>
+</config>
+<config key="exclude_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="exclude" type="xboolean" value="false"/>
+<config key="lat_column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="lat_column" type="xstring" value="First*(lat)"/>
+<config key="lon_column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="lon_column" type="xstring" value="First*(long)"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.ext.osm.node.rowfilter.GeoRowFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Geo-Coordinate Row Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Open Street Map Views Integration"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.osm"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.0.v201711021644"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Open Street Map Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.osm.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.0.v201711021644"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Geo-Coordinate Row Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2424, Cols: 16"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="57d633be-7717-4e8e-aa8e-5b3343ace4d2"/>
+</config>
+</config>

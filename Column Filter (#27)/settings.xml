@@ -6,53 +6,10 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="colFilter_possVals">
+<config key="column-filter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xstring" value="id"/>
-<entry key="1" type="xstring" value="First(user)"/>
-<entry key="2" type="xstring" value="First(tags)"/>
-<entry key="3" type="xstring" value="Winner Cluster"/>
-</config>
-<config key="excluded_names">
-<entry key="array-size" type="xint" value="14"/>
-<entry key="0" type="xstring" value="First*(lat)"/>
-<entry key="1" type="xstring" value="First*(long)"/>
-<entry key="2" type="xstring" value="First(title)"/>
-<entry key="3" type="xstring" value="First*(date_taken_minute)"/>
-<entry key="4" type="xstring" value="First*(date_taken_hour)"/>
-<entry key="5" type="xstring" value="First*(date_taken_day)"/>
-<entry key="6" type="xstring" value="First*(date_taken_month)"/>
-<entry key="7" type="xstring" value="First*(date_taken_year)"/>
-<entry key="8" type="xstring" value="First*(date_upload_minute)"/>
-<entry key="9" type="xstring" value="First*(date_upload_hour)"/>
-<entry key="10" type="xstring" value="First*(date_upload_day)"/>
-<entry key="11" type="xstring" value="First*(date_upload_month)"/>
-<entry key="12" type="xstring" value="First*(date_upload_year)"/>
-<entry key="13" type="xstring" value="Cluster0"/>
-</config>
-<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
-<config key="name_pattern">
-<entry key="pattern" type="xstring" value=""/>
-<entry key="type" type="xstring" value="Wildcard"/>
-<entry key="caseSensitive" type="xboolean" value="true"/>
-</config>
-<config key="datatype">
-<config key="typelist">
-<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-</config>
-</config>
-</config>
-<config key="colFilter_minMax">
-<entry key="filter-type" type="xstring" value="STANDARD"/>
-<config key="included_names">
-<entry key="array-size" type="xint" value="12"/>
+<entry key="array-size" type="xint" value="7"/>
 <entry key="0" type="xstring" value="First*(lat)"/>
 <entry key="1" type="xstring" value="First*(long)"/>
 <entry key="2" type="xstring" value="First*(date_taken_minute)"/>
@@ -60,22 +17,20 @@
 <entry key="4" type="xstring" value="First*(date_taken_day)"/>
 <entry key="5" type="xstring" value="First*(date_taken_month)"/>
 <entry key="6" type="xstring" value="First*(date_taken_year)"/>
-<entry key="7" type="xstring" value="First*(date_upload_minute)"/>
-<entry key="8" type="xstring" value="First*(date_upload_hour)"/>
-<entry key="9" type="xstring" value="First*(date_upload_day)"/>
-<entry key="10" type="xstring" value="First*(date_upload_month)"/>
-<entry key="11" type="xstring" value="First*(date_upload_year)"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="6"/>
+<entry key="array-size" type="xint" value="9"/>
 <entry key="0" type="xstring" value="id"/>
 <entry key="1" type="xstring" value="First(user)"/>
 <entry key="2" type="xstring" value="First(tags)"/>
 <entry key="3" type="xstring" value="First(title)"/>
-<entry key="4" type="xstring" value="Cluster0"/>
-<entry key="5" type="xstring" value="Winner Cluster"/>
+<entry key="4" type="xstring" value="First*(date_upload_minute)"/>
+<entry key="5" type="xstring" value="First*(date_upload_hour)"/>
+<entry key="6" type="xstring" value="First*(date_upload_day)"/>
+<entry key="7" type="xstring" value="First*(date_upload_month)"/>
+<entry key="8" type="xstring" value="First*(date_upload_year)"/>
 </config>
-<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
 <entry key="pattern" type="xstring" value=""/>
 <entry key="type" type="xstring" value="Wildcard"/>
@@ -92,14 +47,11 @@
 </config>
 </config>
 </config>
-<entry key="max_poss_values" type="xint" value="-1"/>
-<entry key="possible_values_unselected_retain" type="xboolean" value="true"/>
-<entry key="min_max_unselected_retain" type="xboolean" value="true"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.preproc.domain.dialog2.DomainNodeFactory"/>
-<entry key="node-name" type="xstring" value="Domain Calculator"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -109,7 +61,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.5.0.v201712041255"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Domain Calculator"/>
+<entry key="name" type="xstring" value="Column Filter"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -117,12 +69,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 2424, Cols: 18"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2424, Cols: 7"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="1f6c79d8-6a67-4d2c-b462-cdbc1ed11b25"/>
+<entry key="file_store_id" type="xstring" value="8523ce45-eca1-4ed6-be3a-377df32a7b73"/>
 </config>
 </config>
