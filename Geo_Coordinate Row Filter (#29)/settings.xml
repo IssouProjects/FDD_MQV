@@ -11,54 +11,46 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="polygon_selection_lonpoints">
-<entry key="array-size" type="xint" value="22"/>
-<entry key="0" type="xdouble" value="4.8593902587890625"/>
-<entry key="1" type="xdouble" value="4.853038787841797"/>
-<entry key="2" type="xdouble" value="4.8504638671875"/>
-<entry key="3" type="xdouble" value="4.84797477722168"/>
-<entry key="4" type="xdouble" value="4.846343994140625"/>
-<entry key="5" type="xdouble" value="4.845399856567383"/>
-<entry key="6" type="xdouble" value="4.844799041748047"/>
-<entry key="7" type="xdouble" value="4.844369888305664"/>
-<entry key="8" type="xdouble" value="4.844198226928711"/>
-<entry key="9" type="xdouble" value="4.845314025878906"/>
-<entry key="10" type="xdouble" value="4.846773147583008"/>
-<entry key="11" type="xdouble" value="4.84771728515625"/>
-<entry key="12" type="xdouble" value="4.849262237548828"/>
-<entry key="13" type="xdouble" value="4.850893020629883"/>
-<entry key="14" type="xdouble" value="4.851579666137695"/>
-<entry key="15" type="xdouble" value="4.852266311645508"/>
-<entry key="16" type="xdouble" value="4.85321044921875"/>
-<entry key="17" type="xdouble" value="4.853982925415039"/>
-<entry key="18" type="xdouble" value="4.855442047119141"/>
-<entry key="19" type="xdouble" value="4.856386184692383"/>
-<entry key="20" type="xdouble" value="4.857759475708008"/>
-<entry key="21" type="xdouble" value="4.858360290527344"/>
+<entry key="array-size" type="xint" value="18"/>
+<entry key="0" type="xdouble" value="4.821453094482422"/>
+<entry key="1" type="xdouble" value="4.824199676513672"/>
+<entry key="2" type="xdouble" value="4.826946258544922"/>
+<entry key="3" type="xdouble" value="4.828405380249023"/>
+<entry key="4" type="xdouble" value="4.829521179199219"/>
+<entry key="5" type="xdouble" value="4.829349517822266"/>
+<entry key="6" type="xdouble" value="4.829521179199219"/>
+<entry key="7" type="xdouble" value="4.829263687133789"/>
+<entry key="8" type="xdouble" value="4.828834533691406"/>
+<entry key="9" type="xdouble" value="4.828062057495117"/>
+<entry key="10" type="xdouble" value="4.826517105102539"/>
+<entry key="11" type="xdouble" value="4.825658798217773"/>
+<entry key="12" type="xdouble" value="4.824972152709961"/>
+<entry key="13" type="xdouble" value="4.824113845825195"/>
+<entry key="14" type="xdouble" value="4.823169708251953"/>
+<entry key="15" type="xdouble" value="4.822397232055664"/>
+<entry key="16" type="xdouble" value="4.820680618286133"/>
+<entry key="17" type="xdouble" value="4.812355041503906"/>
 </config>
 <config key="polygon_selection_latpoints">
-<entry key="array-size" type="xint" value="22"/>
-<entry key="0" type="xdouble" value="45.78643963098876"/>
-<entry key="1" type="xdouble" value="45.7859009538856"/>
-<entry key="2" type="xdouble" value="45.78482358406308"/>
-<entry key="3" type="xdouble" value="45.78332720254533"/>
-<entry key="4" type="xdouble" value="45.78183078086237"/>
-<entry key="5" type="xdouble" value="45.78051389655661"/>
-<entry key="6" type="xdouble" value="45.77931670201482"/>
-<entry key="7" type="xdouble" value="45.77817934339009"/>
-<entry key="8" type="xdouble" value="45.77746099967389"/>
-<entry key="9" type="xdouble" value="45.77662292030879"/>
-<entry key="10" type="xdouble" value="45.776084148351266"/>
-<entry key="11" type="xdouble" value="45.77554537118828"/>
-<entry key="12" type="xdouble" value="45.77476712831854"/>
-<entry key="13" type="xdouble" value="45.77404874064522"/>
-<entry key="14" type="xdouble" value="45.773330343717696"/>
-<entry key="15" type="xdouble" value="45.773090876018735"/>
-<entry key="16" type="xdouble" value="45.77285140729153"/>
-<entry key="17" type="xdouble" value="45.77261193753607"/>
-<entry key="18" type="xdouble" value="45.772552069936545"/>
-<entry key="19" type="xdouble" value="45.77261193753607"/>
-<entry key="20" type="xdouble" value="45.77285140729153"/>
-<entry key="21" type="xdouble" value="45.77285140729153"/>
+<entry key="array-size" type="xint" value="18"/>
+<entry key="0" type="xdouble" value="45.76686435493257"/>
+<entry key="1" type="xdouble" value="45.76740321596148"/>
+<entry key="2" type="xdouble" value="45.767283469516045"/>
+<entry key="3" type="xdouble" value="45.76644523720012"/>
+<entry key="4" type="xdouble" value="45.76536749142834"/>
+<entry key="5" type="xdouble" value="45.76416997170554"/>
+<entry key="6" type="xdouble" value="45.76267303590262"/>
+<entry key="7" type="xdouble" value="45.76159521725376"/>
+<entry key="8" type="xdouble" value="45.760337735846605"/>
+<entry key="9" type="xdouble" value="45.75884069721865"/>
+<entry key="10" type="xdouble" value="45.75716396627005"/>
+<entry key="11" type="xdouble" value="45.756205811677795"/>
+<entry key="12" type="xdouble" value="45.755187754396935"/>
+<entry key="13" type="xdouble" value="45.754109791149894"/>
+<entry key="14" type="xdouble" value="45.75273236336603"/>
+<entry key="15" type="xdouble" value="45.75183402258242"/>
+<entry key="16" type="xdouble" value="45.751115339544434"/>
+<entry key="17" type="xdouble" value="45.756505236755196"/>
 </config>
 <config key="exclude_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
@@ -97,12 +89,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 259, Cols: 16"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 497, Cols: 16"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="11df4ca1-bb35-4317-99fe-1707fea4bd62"/>
+<entry key="file_store_id" type="xstring" value="7baa3a49-7fb1-47ce-830f-1c907c538b0a"/>
 </config>
 </config>
