@@ -15,7 +15,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="itemSetAlgorithm" type="xstring" value="FPGROWTH"/>
+<entry key="itemSetAlgorithm" type="xstring" value="APRIORI"/>
 <config key="setType_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -25,12 +25,12 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="minSetSize" type="xint" value="1"/>
+<entry key="minSetSize" type="xint" value="5"/>
 <config key="minSupport_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="minSupport" type="xdouble" value="1.0"/>
+<entry key="minSupport" type="xdouble" value="6.0"/>
 <config key="supportType_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -54,6 +54,10 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Node created an empty data table."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.ext.itemset.nodes.miner.ItemSetMinerNodeFactory"/>
 <entry key="node-name" type="xstring" value="Item Set Finder (Borgelt)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Item set miner plugin"/>
@@ -73,12 +77,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 298, Cols: 4"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 4"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f8985692-f393-4d7b-82d4-fe16d779ec14"/>
+<entry key="file_store_id" type="xstring" value="fdb863ef-83e1-43f1-8bb0-d7f5558dbbe8"/>
 </config>
 </config>

@@ -8,7 +8,7 @@
 <entry key="authored-by" type="xstring" value="victo"/>
 <entry key="authored-when" type="xstring" value="2017-12-18 09:08:07 +0100"/>
 <entry key="lastEdited-by" type="xstring" value="victo"/>
-<entry key="lastEdited-when" type="xstring" value="2018-01-15 11:30:24 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2018-01-22 10:20:34 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -496,13 +496,13 @@
 </config>
 <config key="connection_5">
 <entry key="sourceID" type="xint" value="17"/>
-<entry key="destID" type="xint" value="256"/>
+<entry key="destID" type="xint" value="20"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_6">
 <entry key="sourceID" type="xint" value="17"/>
-<entry key="destID" type="xint" value="20"/>
+<entry key="destID" type="xint" value="256"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
