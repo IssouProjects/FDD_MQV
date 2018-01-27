@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="DataURL" type="xstring" value="file:/C:/Users/victo/OneDrive/Fouille%20de%20données/lyon/flickr_data.csv"/>
+<entry key="DataURL" type="xstring" value="file:/C:/Users/Quentin%20JODER/knime-workspace/flickr_data.csv"/>
 <config key="Delimiters">
 <config key="Delim0">
 <entry key="pattern" type="xstring" value="%%00010"/>
@@ -69,14 +69,14 @@
 <entry key="numOfColumns" type="xint" value="16"/>
 <config key="ColumnProperties">
 <config key="0">
-<entry key="UserSetValues" type="xboolean" value="true"/>
+<entry key="UserSetValues" type="xboolean" value="false"/>
 <entry key="MissValuePattern" type="xstring" isnull="true" value=""/>
 <entry key="FormatParameter" type="xstring" isnull="true" value=""/>
 <entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
 <entry key="SkipThisColumn" type="xboolean" value="false"/>
 <entry key="ColumnName" type="xstring" value="id"/>
 <config key="ColumnClass">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <entry key="is_null" type="xboolean" value="false"/>
 </config>
 </config>
@@ -273,7 +273,7 @@
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.0.v201712041255"/>
+<entry key="node-feature-version" type="xstring" value="3.5.1.v201712211547"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="File Reader"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -289,6 +289,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="583d1fc9-b68f-47b5-9b23-38229b1af26f"/>
+<entry key="file_store_id" type="xstring" value="8341f3e2-15d1-4266-a662-ae023283df2c"/>
 </config>
 </config>
