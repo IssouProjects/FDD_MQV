@@ -13,9 +13,8 @@
 <config key="columns2Btransformed">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="TimeStamp"/>
-<entry key="1" type="xstring" value="Winner Cluster"/>
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Winner Cluster"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="2"/>
@@ -33,6 +32,10 @@
 <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
 </config>
 </config>
+</config>
+<config key="removeSources_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="removeSources" type="xboolean" value="false"/>
 </config>
@@ -63,6 +66,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6bd56105-fb48-4256-940a-00113cc904d5"/>
+<entry key="file_store_id" type="xstring" value="94282344-7ea8-49e9-9f25-2fddd70d69c2"/>
 </config>
 </config>

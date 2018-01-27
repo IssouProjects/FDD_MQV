@@ -62,8 +62,8 @@
 <entry key="acceptShortLines" type="xboolean" value="false"/>
 <entry key="uniquifyRowID" type="xboolean" value="false"/>
 <entry key="MaxNumOfRows" type="xlong" value="-1"/>
-<entry key="ColNumDetermLine" type="xint" value="-1"/>
-<entry key="CharsetName" type="xstring" isnull="true" value=""/>
+<entry key="ColNumDetermLine" type="xint" value="2"/>
+<entry key="CharsetName" type="xstring" value="UTF-8"/>
 <entry key="ConnectTimeoutInSeconds" type="xint" value="1"/>
 <entry key="delimsAtEOLuserVal" type="xboolean" value="false"/>
 <entry key="numOfColumns" type="xint" value="16"/>
@@ -289,6 +289,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="70bec2fc-a193-48b4-a37b-04f94fc86ac3"/>
+<entry key="file_store_id" type="xstring" value="9737d9a5-3ef1-45ab-ab68-f8a9938e48f5"/>
 </config>
 </config>
