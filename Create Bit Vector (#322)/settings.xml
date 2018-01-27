@@ -9986,12 +9986,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 2484, Cols: 14"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2220, Cols: 9858"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="54935f1f-6f1a-4fa0-98f6-909f26ed4719"/>
+<entry key="file_store_id" type="xstring" value="2a5c98da-8395-467a-b4aa-9506125f3135"/>
 </config>
 </config>
